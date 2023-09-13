@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(203,153,244,1) 0%, rgba(172,241,255,1) 80%, rgba(0,212,255,1) 100% );
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    display: flex;
+    max-width: 666px;
+    background-color: white;
+    margin: 0 1rem;
+    border-bottom-left-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+.img-container {
+    width: 50%;
+}
+.img-container img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-bottom-left-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+.details-container {
+    width: 50%;
+    padding: 3rem; 
+} 
+.logo {
+    padding-right: 2.5rem;
+    color: silver;
+    letter-spacing: 0.5rem;
+}
+.details-container .description {
+    color: silver;
+    line-height: 1.5rem;
+}
+.price-container {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 0.75rem;
+}
+.current-price {
+    color: #3c8168;
+}
+.old-price {
+    text-decoration: line-through;
+}
+.btn {
+    width: 100%;
+    background-color: #3c8168;
+    height: 2.5rem;
+    border: none;
+    font-weight: bold;
+    color: white;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: rgb(0,100,0);
+}
